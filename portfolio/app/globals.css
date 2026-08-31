@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #d4af37;
+  --color-dark: #0b0a09;
+  --color-card: #141210;
+  --color-card-light: #1f1b18;
+  --color-border-dark: #2a2622;
+}
+
+@layer base {
+  body {
+    @apply bg-dark text-gray-200 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .gold-text {
+    @apply text-gold;
+  }
+  .gold-border {
+    @apply border border-gold;
+  }
+  .btn-gold {
+    @apply border border-gold text-gold px-6 py-2 rounded-full font-medium 
+           hover:bg-gold hover:text-dark transition-colors inline-block;
+  }
+  .card-dark {
+    @apply bg-card-light rounded-3xl p-6 border border-border-dark;
+  }
+  .section-title {
+    @apply text-gold font-bold text-sm uppercase tracking-wider mb-2;
+  }
+  .skill-bar-bg {
+    @apply bg-border-dark rounded-full h-2 w-full;
+  }
+  .skill-bar-fill {
+    @apply bg-gold h-2 rounded-full;
+  }
+  .gold-line {
+    @apply w-16 h-0.5 bg-gold my-2;
+  }
+
+  @keyframes spin-slow {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .animate-spin-slow {
+    animation: spin-slow 3s linear infinite;
+  }
+}
