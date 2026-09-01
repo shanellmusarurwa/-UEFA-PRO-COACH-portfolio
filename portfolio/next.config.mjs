@@ -2,7 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   allowedDevOrigins: ["192.168.0.138", "localhost"],
+  output: "export",
   images: {
+    unoptimized: true, // ← Added this for static export compatibility
     remotePatterns: [
       {
         protocol: "https",
@@ -30,10 +32,10 @@ const nextConfig = {
         pathname: "/**",
       },
     ],
-    // Optional: Add local image optimization settings
-    dangerouslyAllowSVG: true,
-    contentDispositionType: "attachment",
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    // Remove these when using unoptimized: true
+    // dangerouslyAllowSVG: true,
+    // contentDispositionType: "attachment",
+    // contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
 };
 
