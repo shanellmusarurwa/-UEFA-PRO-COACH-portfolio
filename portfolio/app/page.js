@@ -30,7 +30,7 @@ export default function Home() {
           <div className="flex-shrink-0">
             <div className="w-32 h-32 overflow-hidden transition-all duration-300 border-4 rounded-full shadow-lg md:w-40 md:h-40 border-gold shadow-gold/20 hover:scale-105 hover:shadow-xl hover:shadow-gold/30">
               <Image
-                src="/images/COACH.jpeg"
+                src="./images/COACH.jpeg"
                 alt="Fabio Lopez"
                 width={160}
                 height={160}
@@ -91,7 +91,7 @@ export default function Home() {
 
         <div className="flex items-center justify-center p-0 overflow-hidden transition-all duration-300 card-dark hover:shadow-xl hover:shadow-gold/5 hover:-translate-y-1">
           <Image
-            src="/images/COACH Lopez.jpeg"
+            src="./images/COACH Lopez.jpeg"
             alt="Football Tactics"
             width={800}
             height={600}
@@ -453,7 +453,7 @@ export default function Home() {
       <div className="grid grid-cols-2 gap-4 mb-8 md:grid-cols-4">
         <div className="p-2 overflow-hidden transition-all duration-300 card-dark hover:shadow-xl hover:shadow-gold/5 hover:-translate-y-1">
           <Image
-            src="/images/F.L.jpeg"
+            src="./images/F.L.jpeg"
             alt="Coaching on the field"
             width={300}
             height={200}
@@ -462,7 +462,7 @@ export default function Home() {
         </div>
         <div className="p-2 overflow-hidden transition-all duration-300 card-dark hover:shadow-xl hover:shadow-gold/5 hover:-translate-y-1">
           <Image
-            src="/images/FABIO.jpeg"
+            src="./images/FABIO.jpeg"
             alt="Coaching on the field"
             width={300}
             height={200}
@@ -471,7 +471,7 @@ export default function Home() {
         </div>
         <div className="p-2 overflow-hidden transition-all duration-300 card-dark hover:shadow-xl hover:shadow-gold/5 hover:-translate-y-1">
           <Image
-            src="/images/COACH.jpeg"
+            src="./images/COACH.jpeg"
             alt="Coaching on the field"
             width={300}
             height={200}
@@ -480,7 +480,7 @@ export default function Home() {
         </div>
         <div className="p-2 overflow-hidden transition-all duration-300 card-dark hover:shadow-xl hover:shadow-gold/5 hover:-translate-y-1">
           <Image
-            src="/images/Lopez.jpeg"
+            src="./images/Lopez.jpeg"
             alt="Coaching on the field"
             width={300}
             height={200}
