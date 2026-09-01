@@ -18,16 +18,26 @@ export default function Home() {
             team&rdquo;
           </p>
         </div>
-        <div className="flex-shrink-0">
-          <div className="w-32 h-32 overflow-hidden transition-all duration-300 border-4 rounded-full shadow-lg md:w-40 md:h-40 border-gold shadow-gold/20 hover:scale-105 hover:shadow-xl hover:shadow-gold/30">
-            <Image
-              src="/images/COACH.jpeg"
-              alt="Fabio Lopez"
-              width={160}
-              height={160}
-              className="object-cover w-full h-full"
-              priority
-            />
+        <div className="flex items-center gap-4">
+          <a
+            href="/Fabio cv 2026pdf.pdf"
+            download
+            className="flex items-center gap-2 px-6 py-2 transition-all duration-300 btn-gold hover:scale-105 hover:shadow-lg hover:shadow-gold/20"
+          >
+            <i className="fas fa-download"></i>
+            Download CV
+          </a>
+          <div className="flex-shrink-0">
+            <div className="w-32 h-32 overflow-hidden transition-all duration-300 border-4 rounded-full shadow-lg md:w-40 md:h-40 border-gold shadow-gold/20 hover:scale-105 hover:shadow-xl hover:shadow-gold/30">
+              <Image
+                src="/images/COACH.jpeg"
+                alt="Fabio Lopez"
+                width={160}
+                height={160}
+                className="object-cover w-full h-full"
+                priority
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -487,7 +497,7 @@ export default function Home() {
           outstanding.&rdquo;
         </p>
         <p className="mt-2 font-bold text-center transition-all duration-300 text-gold hover:pl-2">
-          &mdash; Mr.G.I , President of FIFA
+          &mdash; UEFA
         </p>
       </div>
 
@@ -495,7 +505,7 @@ export default function Home() {
       <div className="flex flex-wrap items-center justify-between gap-4 pt-4 mt-8 border-t border-gold/30">
         <div className="flex gap-6 text-2xl">
           <a
-            href="https://www.facebook.com/share/19Egfcq32c/"
+            href="https://www.facebook.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-[#1877f2] transition-all duration-300 hover:scale-125 hover:rotate-12"
@@ -504,7 +514,7 @@ export default function Home() {
             <i className="fab fa-facebook-f"></i>
           </a>
           <a
-            href="https://www.instagram.com/fabiolopezofficial"
+            href="https://www.instagram.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-[#E4405F] transition-all duration-300 hover:scale-125 hover:rotate-12"
@@ -513,7 +523,7 @@ export default function Home() {
             <i className="fab fa-instagram"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/fabio-lopez-0281b319"
+            href="https://www.linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-[#0A66C2] transition-all duration-300 hover:scale-125 hover:rotate-12"
@@ -523,8 +533,8 @@ export default function Home() {
           </a>
         </div>
         <div className="text-sm text-gray-400">
-          <span className="text-gold">✉</span> hello@fablopez.com &middot;{" "}
-          <span className="text-gold">📞</span> +39 333 130 4281
+          <span className="text-gold">✉</span> Hellofabio@gmail.com &middot;{" "}
+          <span className="text-gold">📞</span> +1 333 189 4571
         </div>
         <div className="text-xs text-gray-500">
           &copy; 2026 Fabio Lopez &middot; UEFA Pro
