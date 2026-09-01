@@ -4,7 +4,7 @@ const nextConfig = {
   allowedDevOrigins: ["192.168.0.138", "localhost"],
   output: "export",
   images: {
-    unoptimized: true, // ← Added this for static export compatibility
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
@@ -32,11 +32,13 @@ const nextConfig = {
         pathname: "/**",
       },
     ],
-    // Remove these when using unoptimized: true
-    // dangerouslyAllowSVG: true,
-    // contentDispositionType: "attachment",
-    // contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
+  // ✅ Important for Netlify: Handle trailing slashes
+  trailingSlash: true,
+  // ✅ Skip during build to avoid errors with external images
+  skipTrailingSlashRedirect: true,
+  // ✅ Generate static pages for all routes
+  distDir: "out",
 };
 
 export default nextConfig;
