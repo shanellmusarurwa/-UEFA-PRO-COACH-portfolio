@@ -1,2 +1,0 @@
-#  UEFA PRO COACH portfolio
-
