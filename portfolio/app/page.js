@@ -124,9 +124,9 @@ export default function Home() {
               },
               {
                 year: "2021 – 2024",
-                name: "COACH EDUCATOR",
-                country: "Vietnam",
-                flag: "https://flagcdn.com/w40/vn.png",
+                name: " EDUCATOR",
+                country: "Italy",
+                flag: "https://flagcdn.com/w40/it.png",
               },
               {
                 year: "2019 – 2021",
@@ -284,14 +284,14 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-3">
             <div className="p-3 transition-all duration-300 border rounded-lg bg-gold/5 border-gold/30 hover:border-gold hover:bg-gold/10">
               <div className="mb-1 text-3xl animate-bounce">⚽</div>
-              <div className="font-semibold text-gold">4-3-3</div>
+              <div className="font-semibold text-gold">1-4-2-3-1</div>
               <div className="text-xs text-gray-400">
                 Attacking &amp; Possession
               </div>
             </div>
             <div className="p-3 transition-all duration-300 border rounded-lg bg-gold/5 border-gold/30 hover:border-gold hover:bg-gold/10">
               <div className="mb-1 text-3xl animate-bounce">⚽</div>
-              <div className="font-semibold text-gold">4-2-2</div>
+              <div className="font-semibold text-gold">1-4-3-3</div>
               <div className="text-xs text-gray-400">
                 Defensive &amp; Counter
               </div>
@@ -502,41 +502,8 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <div className="flex flex-wrap items-center justify-between gap-4 pt-4 mt-8 border-t border-gold/30">
-        <div className="flex gap-6 text-2xl">
-          <a
-            href="https://www.facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-[#1877f2] transition-all duration-300 hover:scale-125 hover:rotate-12"
-            aria-label="Facebook"
-          >
-            <i className="fab fa-facebook-f"></i>
-          </a>
-          <a
-            href="https://www.instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-[#E4405F] transition-all duration-300 hover:scale-125 hover:rotate-12"
-            aria-label="Instagram"
-          >
-            <i className="fab fa-instagram"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-[#0A66C2] transition-all duration-300 hover:scale-125 hover:rotate-12"
-            aria-label="LinkedIn"
-          >
-            <i className="fab fa-linkedin-in"></i>
-          </a>
-        </div>
-        <div className="text-sm text-gray-400">
-          <span className="text-gold">✉</span> Hellofabio@gmail.com &middot;{" "}
-          <span className="text-gold">📞</span> +1 333 189 4571
-        </div>
-        <div className="text-xs text-gray-500">
+      <div className="flex flex-col items-center justify-center gap-2 pt-4 mt-8 border-t border-gold/30">
+        <div className="text-xs text-center text-gray-500">
           &copy; 2026 Fabio Lopez &middot; UEFA Pro
         </div>
       </div>
