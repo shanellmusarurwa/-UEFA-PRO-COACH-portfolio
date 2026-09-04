@@ -284,14 +284,14 @@ export default function Home() {
           <div className="grid grid-cols-2 gap-3">
             <div className="p-3 transition-all duration-300 border rounded-lg bg-gold/5 border-gold/30 hover:border-gold hover:bg-gold/10">
               <div className="mb-1 text-3xl animate-bounce">⚽</div>
-              <div className="font-semibold text-gold">1-4-2-3-1</div>
+              <div className="font-semibold text-gold">1-4-3-3</div>
               <div className="text-xs text-gray-400">
                 Attacking &amp; Possession
               </div>
             </div>
             <div className="p-3 transition-all duration-300 border rounded-lg bg-gold/5 border-gold/30 hover:border-gold hover:bg-gold/10">
               <div className="mb-1 text-3xl animate-bounce">⚽</div>
-              <div className="font-semibold text-gold">1-4-3-3</div>
+              <div className="font-semibold text-gold">1-4-2-3-1</div>
               <div className="text-xs text-gray-400">
                 Defensive &amp; Counter
               </div>
